@@ -1,0 +1,29 @@
+/* shared styles */
+.navbar{display:flex;justify-content:space-between;align-items:center;background:#232f3e;color:#fff;padding:12px 24px}
+.logo{font-weight:700}
+.search-bar{display:flex;flex:1;max-width:500px;margin:0 20px}
+.search-bar input{flex:1;padding:6px;border-radius:4px 0 0 4px;border:none}
+.search-bar button{padding:6px 12px;border:none;background:#febd69;border-radius:0 4px 4px 0;cursor:pointer}
+.icons{display:flex;gap:12px;align-items:center}
+
+.banner{background:url('https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;color:#fff;text-align:center;padding:100px 20px}
+.container{max-width:1100px;margin:0 auto;padding:20px}
+
+.grid{display:flex;flex-wrap:wrap;gap:20px;justify-content:center}
+.card{background:#fff;border-radius:8px;box-shadow:0 4px 10px rgba(0,0,0,0.08);overflow:hidden;width:240px}
+.card img{width:100%;height:200px;object-fit:cover}
+.card h3{padding:12px 16px;font-size:16px}
+.card p{padding:0 16px 12px;color:#b12704;font-weight:700}
+.btns{display:flex;gap:8px;padding:12px 16px}
+.btn{padding:8px 10px;border-radius:6px;border:none;cursor:pointer}
+.cart{background:#febd69}
+.buy{background:#b12704;color:#fff}
+
+footer{background:#232f3e;color:#fff;text-align:center;padding:14px;margin-top:30px}
+
+/* responsive */
+@media(max-width:700px){
+  .search-bar{display:none}
+  .banner{padding:70px 12px}
+  .card{width:90%}
+}
