@@ -3,7 +3,7 @@ export default function Footer(){
   return (
     <footer>
       <div className="container">
-        <p>© 2025 StyleCart | Made with ❤️ by Kirtan Jaiswal</p>
+        <p>© 2025 StyleCart | Made with ❤️ by Ketan Agarwal</p>
       </div>
     </footer>
   );
